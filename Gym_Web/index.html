@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahab Fitness center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset */
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/backgrn.jpg');
+            color: white;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+         
+            left: 34px;
+            top: 20px;
+
+
+
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .left img {
+            width: 96px;
+            filter: invert(100%);
+        }
+
+        .mid {
+            display: block;
+            width: 53%;
+            margin: 27px auto;
+            /* border: 2px solid yellow; */
+        }
+
+        .right {
+            position: absolute;
+            top: 39px;
+            right: 7px;
+            display: inline-block;
+            /* border: 2px solid green; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+
+        }
+
+        .btn {
+            margin: 0px 10px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+
+
+        }
+
+        .btn:hover {
+            color: gray;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .form-group input {
+            display: block;
+            text-align: center;
+            margin: 8px auto;
+            padding: 10px;
+            font-size: 20px;
+            border: 2px solid black;
+            width: 407px;
+            border-radius: 8px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 96%;
+            margin: 30px auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/extra logo.jpg" alt="">
+            <div>Shahab Fitness</div>
+        </div>
+
+
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>Join the Gym for Fitness</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+                <input type="text" name="" placeholder="enter your age">
+                <input type="text" name="" placeholder="enter your gender">
+                <input type="text" name="" placeholder="enter your locality">
+                <input type="text" name="" placeholder="enter your Phone Number">
+                <input type="text" name="" placeholder="enter your Email Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+       
+
+    </div>
+
+</body>
+
+</html>
