@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background: url(bg.jpg)no-repeat center center fixed ;
+    background-size: cover;
+}
+
+.container{
+    /* border: 2px solid green; */
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.container h1{
+    font-size: 35px;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-family: 'Spline Sans', sans-serif;
+
+
+}
+.box{
+    width: 100%;
+    /* border: 2px solid red; */
+    border-bottom: 2px solid blue;
+    margin: 10px auto;
+}
+
+.box input{
+    width: 75%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 0px 0px;
+    padding: 12px 0px;
+    font-size: 20px;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    /* width: 50%; */
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background: none;
+    color: white;
+    font-size: 25px;
+}
+.btn:hover{
+   color: black;
+   background: white;
+   opacity: 0.5;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+
+}
