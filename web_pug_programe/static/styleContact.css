@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Baloo+Bhai+2:wght@700&family=Rammetto+One&family=Varela+Round&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+
+h1{
+    text-align: center;
+    margin: 12px 10px;
+}
+
+.myInput{
+    width: 50%;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(68, 64, 64);
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+.container{
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.container h1 {
+    font-family: 'Varela Round', sans-serif;
+    margin: 15px;
+    padding: 15px 0px;
+}

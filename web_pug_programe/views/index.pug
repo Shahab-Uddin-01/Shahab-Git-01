@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    title Shahabs Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/imgs/logo.jpg", alt="") 
+                | HDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Classinfo ]
+            li #[a(href="/") Contact Us ]
+
+    section#introSection 
+        div  Welcome to Shahab's Dance Academy
+        div.small Eat sleep dance repeat 
+
+    section#missionSection 
+        h1 Our Mission
+        div.card 
+            h2  Dance perfection
+            div.card-box
+                div.card-img 
+                    img(src="/static/imgs/1.jpg", alt="")
+                div.card-content 
+                    p This is best dance academy of universe
+
+        div.card
+            h2  Dance the way you like
+            div.card-box
+                div.card-img 
+                    img(src="/static/imgs/2.jpg", alt="")
+                div.card-content 
+                    p This is best dance academy of universe
+        div.card 
+            h2  Expert Teaching
+            div.card-box
+                div.card-img 
+                    img(src="/static/imgs/3.jpg", alt="")
+                div.card-content 
+                    p This is best dance academy of universe
+
+    section#sponsorSection 
+        h3 Our sponsors
+        div#sponsors 
+            img(src="/static/imgs/logo1.png", alt="sponsor image" class="spImage")
+            img(src="/static/imgs/logo2.png", alt="sponsor image" class="spImage")
+            img(src="/static/imgs/logo3.png", alt="sponsor image" class="spImage")
+            img(src="/static/imgs/logo4.jpg", alt="sponsor image" class="spImage")
+    
+    section#footerSection 
+        | Copyright © 2021 ShahabDanceAcademy.com | All rights reserved
+
+
+
+    script
+      include ../static/index.js
